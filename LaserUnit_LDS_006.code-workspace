@@ -1,0 +1,38 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"main.h": "c",
+			"string.h": "c",
+			"user_main.h": "c",
+			"stm32f4xx_hal.h": "c",
+			"lcd_driver.h": "c",
+			"stdio.h": "c",
+			"lcd_initsequence.h": "c",
+			"stm32f4xx_hal_conf.h": "c",
+			"stm32f4xx_hal_tim.h": "c",
+			"pwm.h": "c",
+			"stdbool.h": "c"
+		},
+		"search.exclude": {
+			"**/node_modules": true,
+			"**/bower_components": true,
+			"**/*.code-search": true,
+			"Debug/":true
+		},
+		"files.exclude": {
+			"**/.git": true,
+			"**/.svn": true,
+			"**/.hg": true,
+			"**/CVS": true,
+			"**/.DS_Store": true,
+			"**/Debug":true
+		},
+		"C_Cpp.errorSquiggles": "Disabled",
+		"C_Cpp.intelliSenseEngineFallback": "Enabled"
+	}
+}
